@@ -1,0 +1,360 @@
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --momo: "oxygen mono", monospace;
+    --sans: times, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--sans);
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+a {
+    color: var(--magenta);
+}
+
+a:hover {
+    color: var(--hotmag);
+    text-decoration: none;
+}
+
+.container {
+    gap: 8rem;
+    display: flex;
+    padding: 5rem 0;
+    flex-direction: column;
+}
+
+/* intro style */
+#intro {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#inro.name {
+    font-family: var(--momo);
+}
+
+.name span {
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--aqua);
+    display: block;
+}
+
+#intro h2 {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+#contact {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 3rem 0;
+    display: block;
+    background: var(--plum);
+
+}
+
+#contact p :last-child {
+    margin-top: 3rem;
+
+}
+
+nav {
+    font-family: var(--momo);
+    font-size: 80%;
+    padding: 1rem 0;
+}
+
+.nav-logo {
+    padding-bottom: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+nav h1 a {
+    font-family: var(--sans);
+}
+
+nav .main {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+}
+
+nav a :hover {
+    color: var(--magenta);
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: var(--magenta);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.button :hover {
+    /* color: var(--white); */
+    background-color: var(--hotmag);
+}
+
+.fa-behance {
+    margin-right: 10px;
+}
+
+.about {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 90%; */
+}
+
+.index {
+    width: 80%;
+    margin: auto;
+}
+
+.about-me {
+    color: var(--white);
+}
+
+.about-me h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.about-me p {
+    text-align: justify;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.view {
+    background-color: var(--magenta);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.view :hover {
+    background-color: var(--hotmag);
+    color: var(--white);
+}
+
+.winnie {
+    color: var(--aqua);
+}
+
+.watch {
+    justify-content: left;
+    padding: 2%;
+    padding-left: 6rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    font-size: small;
+    padding-top: 1rem;
+}
+
+.Screenshot {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.Screenshot p {
+    margin-bottom: .5rem;
+}
+
+.admin {
+    gap: 7rem;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.visual{
+    gap: 7rem;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.visual div{
+    width: 50%;
+}
+.admin div {
+    width: 50%;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#services h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.pm {
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo img {
+    background: white;
+    padding: 5px;
+}
+
+.logo-one {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-two {
+    display: flex;
+    gap: 4rem;
+    padding-top: 30px;
+}
+
+#logo h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.show-nav {
+    display: flex !important;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    .nav-link {
+        gap: 1rem;
+        padding: 20px;
+        display: none;
+        align-items: end;
+        flex-direction: column;
+    }
+
+    .fa fa-linkedin{
+        gap: 1rem;
+    }
+    .name span,
+    #intro h2 {
+        font-size: 2rem;
+    }
+
+    .intro-text {
+        text-align: justify;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about-me h2 {
+        text-align: center;
+    }
+
+    #services h2 {
+        text-align: left;
+    }
+
+    .admin {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .visual{
+        flex-direction:column ;
+        gap: 2rem;
+    }
+
+    .visual div{
+        width: 100%;
+    }
+
+    .admin div {
+        width: 100%;
+    }
+
+    .pm {
+        text-align: center;
+    }
+
+    .Screenshot {
+        flex-direction: column;
+    }
+
+    .logo-one {
+        justify-content: center;
+    }
+}
