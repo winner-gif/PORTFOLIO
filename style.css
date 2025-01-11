@@ -43,7 +43,7 @@ a:hover {
 .container {
     gap: 8rem;
     display: flex;
-    padding-top: 5rem;
+    padding-top: 4rem;
     flex-direction: column;
 }
 
@@ -286,6 +286,20 @@ footer {
     display: flex !important;
 }
 
+.footer-one{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.links{
+    color: var(--white);
+    text-decoration: none;
+    font-size: medium;
+}
 /* Project Images */
 .project-cont {
     width: 100%;
