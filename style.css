@@ -315,33 +315,42 @@ footer {
 }
 
 .design-img {
-    background-image: url(images/PL.png);
+    background-image: url(images/Screenshot\ \(43\).png);
 }
 .info-img {
-    background-image: url(images/info\ img.jpg);
+    background-image: url(images/Screenshot\ \(44\).png);
 }
 .graph-img {
-    background-image: url(images/new\ year.png);
+    background-image: url(images/AI\ .jpg);
 }
 .sm1-img {
-    background-image: url(images/ski.png);
+    background-image: url(images/Screenshot\ \(45\).png);
 }
 .sm2-img {
-    background-image: url(images/MacBook\ Air\ -\ 3.png);
+    background-image: url(images/Screenshot\ \(47\).png);
 }
 .sm3-img {
     background-image: url(images/skincare\ Routine2.png);
 }
 .ui-img {
-    background-image: url(images/summer.png);
+    background-image: url(images/MacBook\ Air\ -\ 1.png);
 }
 .app-img {
-    background-image: url(images/l.png);
+    background-image: url(images/ski.png);
 }
 .dashboard-img {
-    background-image: url(images/Desktop\ -\ 10.png);
+    background-image: url(images/new\ year.png);
 }
 
+.click{
+    font-style: italic;
+    font-size: small;
+}
+
+.market{
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
 @media screen and (max-width: 600px) {
     .container{
         padding-top: 3rem;
@@ -419,4 +428,6 @@ footer {
     .logo-one {
         justify-content: center;
     }
+    
+  
 }
