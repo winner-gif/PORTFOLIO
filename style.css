@@ -244,7 +244,15 @@ footer {
 }
 
 .pm {
-    text-align: center;
+    /* text-align: center; */
+    gap: 7rem;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.pm div {
+    width: 50%;
 }
 
 .gallery {
@@ -286,7 +294,7 @@ footer {
     display: flex !important;
 }
 
-.footer-one{
+.footer-one {
     display: flex;
     justify-content: space-between;
     margin: 2rem;
@@ -295,11 +303,12 @@ footer {
 
 }
 
-.links{
+.links {
     color: var(--white);
     text-decoration: none;
     font-size: medium;
 }
+
 /* Project Images */
 .project-cont {
     width: 100%;
@@ -314,48 +323,133 @@ footer {
     background-size: cover;
 }
 
+.page-audit {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.page-audit h4 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.analytic {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.analytic h4 {
+    text-align: right;
+    margin-bottom: 1rem;
+
+
+}
+
+
+.optimize li {
+    list-style: disc;
+    margin-left: 1rem;
+}
+
 .design-img {
     background-image: url(images/Screenshot\ \(43\).png);
 }
+
 .info-img {
     background-image: url(images/Screenshot\ \(44\).png);
 }
+
 .graph-img {
     background-image: url(images/AI\ .jpg);
 }
+
 .sm1-img {
     background-image: url(images/Screenshot\ \(45\).png);
 }
+
 .sm2-img {
     background-image: url(images/Screenshot\ \(47\).png);
 }
+
 .sm3-img {
     background-image: url(images/skincare\ Routine2.png);
 }
+
 .ui-img {
     background-image: url(images/MacBook\ Air\ -\ 1.png);
 }
+
 .app-img {
     background-image: url(images/ski.png);
 }
+
 .dashboard-img {
-    background-image: url(images/new\ year.png);
+    background-image: url(images/Instagram\ post\ -\ 15.png);
 }
 
-.click{
+.smm1-img {
+    background-image: url(images/Frame\ 32.png);
+}
+
+.smm2-img {
+    background-image: url(images/Screenshot\ \(52\).png);
+}
+
+.smm-1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.click {
     font-style: italic;
     font-size: small;
 }
 
-.market{
+.customize {
+    background-color: #55114d;
+    width: 15%;
+    border-radius: 10px;
+    text-align: center;
+    color: #f3efef;
+    font-weight: lighter;
+
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.work {
+    width: 80%;
+    margin: auto;
+}
+.strat {
+    background-color: #f7f8fa;
+    border-radius: 4px;
+}
+
+.strat p {
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.market {
     margin-bottom: 0;
     margin-top: 2rem;
 }
+
 @media screen and (max-width: 600px) {
-    .container{
+    .container {
         padding-top: 3rem;
     }
-    
+
     .nav-logo {
         display: flex;
         align-items: center;
@@ -399,6 +493,18 @@ footer {
         text-align: left;
     }
 
+    .page-audit {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .analytic {
+        flex-direction: column;
+        align-items: center;
+    }
+    .analytic h4{
+        text-align: left;
+    }
     .admin {
         flex-direction: column;
         gap: 2rem;
@@ -418,7 +524,12 @@ footer {
     }
 
     .pm {
-        text-align: left;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .pm div {
+        width: 100%;
     }
 
     .Screenshot {
@@ -428,6 +539,17 @@ footer {
     .logo-one {
         justify-content: center;
     }
-    
-  
+
+    .smm-1 {
+        flex-direction: column-reverse;
+
+    }
+    .wrap {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .work h4 {
+        text-align: center;
+    }
 }
