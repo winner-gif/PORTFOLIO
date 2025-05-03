@@ -349,6 +349,21 @@ footer {
 
 }
 
+.testimony {
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+    
+}
+.client {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
 
 .optimize li {
     list-style: disc;
@@ -411,6 +426,16 @@ footer {
     font-size: small;
 }
 
+.click-1 {
+    font-size: small;
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    width: 62%;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
 .customize {
     background-color: #55114d;
     width: 15%;
@@ -551,5 +576,21 @@ footer {
     }
     .work h4 {
         text-align: center;
+    }
+    .testimony {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .client {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .click-1 {
+        margin: 0;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
